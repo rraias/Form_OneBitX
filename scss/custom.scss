@@ -1,0 +1,43 @@
+//Variáveis de cores:
+
+$primary: #ff0043;
+$secondary: #131212f1;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+//Código adicional:
+
+body {
+    background-image: url("../images/backgroundLp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+.formBody {
+    width: 450px;
+    height: auto;
+    margin-top: 100px;
+}
+
+p {
+    color: white
+}
+
+.mini-logo {
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+@media (max-width: 480px) {
+    
+    .formBody {
+        width: auto
+    }
+}
+
+;
